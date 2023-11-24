@@ -2,3 +2,11 @@
 
 # Documentación de TypeScripts
 https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+-Tipos básicos y conceptos generales
+
+-Arreglos, objetos e interfaces
+
+-Funciones básicas
+
+-Funciones con objetos como argumentos
