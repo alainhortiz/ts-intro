@@ -24,3 +24,5 @@ https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 -Constructor de una clase
 
 -Extender una clase
+
+-Genéricos
