@@ -15,3 +15,5 @@ https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 
 -Desestructuración de arreglos
 
+-Desestructuración de argumentos
+
