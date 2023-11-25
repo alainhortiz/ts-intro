@@ -3,7 +3,7 @@
     ===== Código de TypeScript =====
 */
 ///Importacion a traves de la desestructuración de argumentos de la interface Producto
-import { Producto, calculaImpuestoSobreVenta } from "./ejercicios/08-desestructuracion-argumentos";
+import { Producto, calculaImpuestoSobreVenta } from "./08-desestructuracion-argumentos";
 
 
 const carritoCompras: Producto[] = [
