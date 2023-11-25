@@ -29,3 +29,5 @@ https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 
 -Decoradores de clases
 https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators
+
+-Encadenamiento opcional

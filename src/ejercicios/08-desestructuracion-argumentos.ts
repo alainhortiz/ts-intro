@@ -3,7 +3,7 @@
     ===== Código de TypeScript =====
 */
 
-//Exportando la interfase
+//Exportando la interface
 export interface Producto {
     desc: string;
     precio: number;
