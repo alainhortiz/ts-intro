@@ -20,3 +20,5 @@ https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 -Importaciones y exportaciones
 
 -Clases básicas
+
+-Constructor de una clase
