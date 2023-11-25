@@ -26,3 +26,6 @@ https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 -Extender una clase
 
 -Genéricos
+
+-Decoradores de clases
+https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators
