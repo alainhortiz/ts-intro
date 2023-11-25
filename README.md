@@ -12,3 +12,6 @@ https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 -Funciones con objetos como argumentos
 
 -Desestructuración de objetos
+
+-Desestructuración de arreglos
+

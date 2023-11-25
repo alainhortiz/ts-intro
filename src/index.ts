@@ -3,41 +3,20 @@
     ===== Código de TypeScript =====
 */
 
-interface Reproductor {
-    volumen: number;
-    segundo: number;
-    cancion: string;
-    detalles: Detalles
+//Declararación de un arreglo
+const dbz: string[] = ['dbz1', 'dbz2', 'dbz3'];
 
-}
+//Desestructuración de un arreglo donde la posición es lo importante
+const [dbz1, dbz2, dbz3] = dbz;
 
-interface Detalles {
-    autor: string;
-    anio: number;
-}
-
-const reproductor: Reproductor = {
-    volumen: 90,
-    segundo: 36,
-    cancion: 'Yo canto',
-    detalles: {
-        autor: 'Laura Pausini',
-        anio: 2015
-    }
-}
-
-//Desestructuracion
-const { volumen, segundo, cancion, detalles: {autor,anio} } = reproductor;
-//Otra forma
-//const { autor, anio } = detalles;
-
-//Gracias a la desestructuración podemos acceder a los valores
-console.log(volumen, segundo, cancion, autor);
-
-//Metodo anterior
-console.log(reproductor.volumen, reproductor.segundo, reproductor.cancion, reproductor.detalles.autor);
+//Si quiero el 3er valor
+const [,, dbz4] = dbz;
 
 
+console.log('Personaje 1: ', dbz[0]);
+console.log('Personaje 2: ', dbz[1]);
+console.log('Personaje 3: ', dbz[2]);
 
-
-
+console.log('Personaje 1: ', dbz1);
+console.log('Personaje 2: ', dbz2);
+console.log('Personaje 3: ', dbz3);
