@@ -22,3 +22,5 @@ https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 -Clases básicas
 
 -Constructor de una clase
+
+-Extender una clase
