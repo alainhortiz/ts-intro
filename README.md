@@ -17,3 +17,4 @@ https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 
 -Desestructuración de argumentos
 
+-Importaciones y exportaciones

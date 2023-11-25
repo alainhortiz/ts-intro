@@ -3,7 +3,8 @@
     ===== Código de TypeScript =====
 */
 
-interface Producto {
+//Exportando la interfase
+export interface Producto {
     desc: string;
     precio: number;
 }
@@ -19,7 +20,7 @@ const tableta: Producto = {
 }
 
 //La función retorna un arreglo de dos numeros
-function calculaImpuestoSobreVenta(productos: Producto[]): [number, number] {
+export function calculaImpuestoSobreVenta(productos: Producto[]): [number, number] {
     //Declarar una variable con un ambito dentro de la función
     let total = 0;
 
