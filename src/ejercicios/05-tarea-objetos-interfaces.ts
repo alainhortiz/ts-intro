@@ -23,14 +23,18 @@ const superHeroe: SuperHeroe = {
     direccion: {
         calle: 'Calle 123',
         pais: 'México',
-        ciudad: 'Ciudad de México'
+        ciudad: 'Ciudad de México',
         alcalde: {
             nombre: 'Gonzalo',
             edad: 20,
             direccion: {
                 calle: 'Calle 123',
                 pais: 'México',
-                ciudad: 'Ciudad de México'
+                ciudad: 'Ciudad de México',
+                alcalde: undefined
+            },
+            mostrarDireccion: function (): string {
+                throw new Error("Function not implemented.");
             }
         }
     },
